@@ -1,0 +1,6 @@
+<h5>Lista de alumnos</h5>
+<ul class="">
+  <li class="col-md-6" *ngFor="let alumnos of alumno" [ngClass]="Clasi_age(alumnos.edad)">
+    Nombre:{{ alumnos.nombre}} - Edad:{{alumnos.edad}}
+  </li>
+</ul>
